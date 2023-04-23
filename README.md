@@ -66,4 +66,3 @@ Critérios de Aceite:
 Critérios de Aceite:
 * Deve ao efetuar a compra registrar os pontos ganhos da compra
 * Deve, ao alcançar o valor da promoção, aplicar o desconto de 10% (com o limite de R$50,00) na próxima compra do cliente
-
