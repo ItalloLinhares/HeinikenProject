@@ -15,8 +15,7 @@ import lombok.NoArgsConstructor;
 public class Crate {
     @Id
     private int crateId;
-    @ManyToOne
-    private Product productId;
+    private Products products;
     @Min(0)
     private int productQuantity;
 
