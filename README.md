@@ -1,4 +1,4 @@
-# HeinikenProject
+# Heiniken Project
 
 Há um Ponto de Revenda de produtos Heineken que vende três produtos: 
 * Cerveja em lata Amstel por R$3,00. 
@@ -35,7 +35,9 @@ Deve, caso a quantidade de um produto em específico escolhido pelo cliente exce
 
 ### US-02 Diminuição do Estoque Após a venda
 **Como** ponto de Revenda
+
 **Quero** que após a venda de um produto a quantidade do produto seja diminuída do estoque
+
 **Para** Administrar o estoque de forma automática
 
 Critérios de Aceite:
@@ -44,7 +46,9 @@ Critérios de Aceite:
 
 ### US-03 Pedido para a fábrica
 **Como** Ponto de Revenda
+
 **Quero** que quando a quantidade de engradados de um produto disponível for igual ou menor que cinco, o sistema faço o pedido de mais um engradado para a fábrica
+
 **Para** ter o sistema de gerenciamento de estoque e pedidos da fábrica automatizado
 
 Critérios de Aceite:
@@ -54,7 +58,9 @@ Critérios de Aceite:
 
 ### US-04 Promoção do Cliente
 **Como** Ponto de Revenda
+
 **Quero** que ao fazer uma compra o determinado cliente acumule os pontos da compra
+
 **Para** quando ele acumular os pontos necessários, poder receber o desconto da promoção
 
 Critérios de Aceite:
