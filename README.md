@@ -26,6 +26,7 @@ Faça uma API capaz de efetuar e registrar uma venda, bem como, consiga administ
 **Para** Tornar a administração do saldo mais fácil e estoque mais fáceis
 
 Critérios de Aceite:
+
 Deve ser possível para o cliente escolher a quantidade e produtos desejados
 Deve, caso a quantidade de um produto em específico escolhido pelo cliente exceda o disponível, toda a operação deve ser cancelada e uma mensagem de erro deve ser mostrada
 * Deve retornar o valor total da compra
@@ -45,15 +46,17 @@ Critérios de Aceite:
 **Como** Ponto de Revenda
 **Quero** que quando a quantidade de engradados de um produto disponível for igual ou menor que cinco, o sistema faço o pedido de mais um engradado para a fábrica
 **Para** ter o sistema de gerenciamento de estoque e pedidos da fábrica automatizado
+
 Critérios de Aceite:
 * Deve aumentar o estoque do determinado produto em um engradado
 * Deve diminuir o saldo do ponto de Revenda no valor do pedido
 
 
 ### US-04 Promoção do Cliente
-Como Ponto de Revenda
-Quero que ao fazer uma compra o determinado cliente acumule os pontos da compra
-Para quando ele acumular os pontos necessários, poder receber o desconto da promoção
+**Como** Ponto de Revenda
+**Quero** que ao fazer uma compra o determinado cliente acumule os pontos da compra
+**Para** quando ele acumular os pontos necessários, poder receber o desconto da promoção
+
 Critérios de Aceite:
 * Deve ao efetuar a compra registrar os pontos ganhos da compra
 * Deve, ao alcançar o valor da promoção, aplicar o desconto de 10% (com o limite de R$50,00) na próxima compra do cliente
