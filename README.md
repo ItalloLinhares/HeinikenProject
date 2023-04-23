@@ -1,6 +1,7 @@
 # HeinikenProject
 
 Há um Ponto de Revenda de produtos Heineken que vende três produtos: 
+
 Cerveja em lata Amstel por R$3,00. 
 A cerveja em lata Kaiser 473ml no valor de R$4,00;
 A Heineken Long Neck por R$6,00;
@@ -15,7 +16,7 @@ Engradado de cerveja em lata Kaiser 473ml no valor de R$12,00;
 Engradado de Heineken Long Neck por R$24,00;
 Faça uma API capaz de efetuar e registrar uma venda, bem como, consiga administrar o estoque e o saldo
 
-US-01 Comprar Produto
+###US-01 Comprar Produto
 Como Ponto de Revenda
 Quero Poder Efetuar a compra dentro do sistema
 Para Tornar a administração do saldo mais fácil e estoque mais fáceis
@@ -26,7 +27,7 @@ Deve retornar o valor total da compra
 Deve registrar a compra no banco de dados com o número de CPF do cliente
 Deve Aumentar no Saldo do Ponto de Venda no valor da compra
 
-US-02 Diminuição do Estoque Após a venda
+###US-02 Diminuição do Estoque Após a venda
 Como ponto de Revenda
 Quero que após a venda de um produto a quantidade do produto seja diminuída do estoque
 Para Administrar o estoque de forma automática
@@ -34,7 +35,7 @@ Critérios de Aceite:
 Deve diminuir a quantidade de produtos de um estoque após a compra
 Ao terminar o engradado de um determinado produto, deve selecionar o próximo engradado e abri-lo por ordem de data
 
-US-03 Pedido para a fábrica
+###US-03 Pedido para a fábrica
 Como Ponto de Revenda
 Quero que quando a quantidade de engradados de um produto disponível for igual ou menor que cinco, o sistema faço o pedido de mais um engradado para a fábrica
 Para ter o sistema de gerenciamento de estoque e pedidos da fábrica automatizado
@@ -43,7 +44,7 @@ Deve aumentar o estoque do determinado produto em um engradado
 Deve diminuir o saldo do ponto de Revenda no valor do pedido
 
 
-US-04 Promoção do Cliente
+###US-04 Promoção do Cliente
 Como Ponto de Revenda
 Quero que ao fazer uma compra o determinado cliente acumule os pontos da compra
 Para quando ele acumular os pontos necessários, poder receber o desconto da promoção
