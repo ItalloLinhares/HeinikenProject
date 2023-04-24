@@ -1,21 +1,16 @@
-package com.example.HeinikenProject.model;
+package com.example.HeinikenProject.dto;
 
-import jakarta.persistence.*;
+import com.example.HeinikenProject.model.Products;
 import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Crate {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long crateId;
+public class CrateCreateDto {
     private Products products;
     @Min(0)
     private int productQuantity;
-
 }

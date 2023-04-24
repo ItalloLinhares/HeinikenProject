@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class Purchase {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int purchaseId;
+    private Long purchaseId;
     @ManyToOne @NotEmpty
     private Buyer buyerCpf;
     @NotEmpty @Digits(integer = 4, fraction = 2)

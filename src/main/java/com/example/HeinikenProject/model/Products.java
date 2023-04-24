@@ -10,6 +10,5 @@ public enum Products {
     Products (double price, int productQuantityperCrate){
         this.price = price;
         this.productQuantityperCrate = productQuantityperCrate;
-
     }
 }
