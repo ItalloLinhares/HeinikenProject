@@ -1,8 +1,7 @@
 package com.example.HeinikenProject.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Digits;
-import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,16 +10,16 @@ import lombok.NoArgsConstructor;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Purchase {
+public class ProductsPurchaseList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long purchaseId;
-    @ManyToOne @NotEmpty
-    private Buyer buyerCpf;
-    @OneToMany
-    private ProductsPurchaseList productsPurchaseList;
+    private Long productsPurchase;
+    @NotNull
+    private ProductsCrate productsCrate;
+    @Min(1) @Max(100)
+    private int productsPurchaseQuantity;
     @NotEmpty @Digits(integer = 4, fraction = 2)
-    private long purchaseValue;
-
-
+    private long subtotal;
+    @ManyToOne
+    private Purchase purchaseId;
 }

@@ -14,7 +14,7 @@ public class Crate {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long crateId;
-    private Products products;
+    private ProductsCrate productsCrate;
     @Min(0)
     private int productQuantity;
 

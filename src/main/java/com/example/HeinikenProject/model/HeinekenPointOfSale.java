@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class HeinekenPointOfSale {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long heinekenPointOfSaleID;
+    private Long heinekenPointOfSaleId;
     @Digits(integer = 6, fraction = 2)
     @Min(0)
     private long heinekenPointOfSaleBalance;
