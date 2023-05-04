@@ -14,10 +14,8 @@ import org.hibernate.validator.constraints.br.CPF;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Buyer {
-    @Id @CPF
+    @Id
     private String buyerCpf;
-    @NotEmpty
-    private String buyerName;
     @NotEmpty @Digits(integer = 3, fraction = 2)
     private long buyerPromotionSocre;
 }

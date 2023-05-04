@@ -14,6 +14,8 @@ public class Crate {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long crateId;
+    @ManyToOne
+    private HeinekenPointOfSale heinekenPointOfSale;
     private ProductsCrate productsCrate;
     @Min(0)
     private int productQuantity;
